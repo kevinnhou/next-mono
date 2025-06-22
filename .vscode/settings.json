@@ -1,0 +1,24 @@
+{
+	"editor.defaultFormatter": "biomejs.biome",
+	"[javascript]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"editor.codeActionsOnSave": {
+		"quickfix.biome": "explicit",
+		"source.organizeImports.biome": "explicit"
+	},
+	"files.exclude": {
+		"**/.next": true,
+		"**/.turbo": true,
+		"**/.vscode": true,
+		"**/.git": true,
+		"**/.gitignore": true,
+		"**/bun.lockb": true
+	}
+}
